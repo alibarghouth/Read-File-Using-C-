@@ -1,0 +1,15 @@
+C:\Users\user\source\repos\Countries Demo App\bin\Debug\net6.0\Countries Demo App.exe
+C:\Users\user\source\repos\Countries Demo App\bin\Debug\net6.0\Countries Demo App.deps.json
+C:\Users\user\source\repos\Countries Demo App\bin\Debug\net6.0\Countries Demo App.runtimeconfig.json
+C:\Users\user\source\repos\Countries Demo App\bin\Debug\net6.0\Countries Demo App.dll
+C:\Users\user\source\repos\Countries Demo App\bin\Debug\net6.0\Countries Demo App.pdb
+C:\Users\user\source\repos\Countries Demo App\obj\Debug\net6.0\Countries Demo App.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\Countries Demo App\obj\Debug\net6.0\Countries Demo App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\Countries Demo App\obj\Debug\net6.0\Countries Demo App.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\Countries Demo App\obj\Debug\net6.0\Countries Demo App.AssemblyInfo.cs
+C:\Users\user\source\repos\Countries Demo App\obj\Debug\net6.0\Countries Demo App.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Countries Demo App\obj\Debug\net6.0\Countries Demo App.dll
+C:\Users\user\source\repos\Countries Demo App\obj\Debug\net6.0\refint\Countries Demo App.dll
+C:\Users\user\source\repos\Countries Demo App\obj\Debug\net6.0\Countries Demo App.pdb
+C:\Users\user\source\repos\Countries Demo App\obj\Debug\net6.0\Countries Demo App.genruntimeconfig.cache
+C:\Users\user\source\repos\Countries Demo App\obj\Debug\net6.0\ref\Countries Demo App.dll
