@@ -23,7 +23,7 @@ namespace Countries_Demo_App
 
                 String line;
                 sr.ReadLine();
-                while ((line = sr.ReadLine()) != null)
+                while ((line = sr.ReadLine()) != "")
                 {
                     result.Add(ReadCountryFromCsvLine(line));
                 }
@@ -35,7 +35,7 @@ namespace Countries_Demo_App
         public Country ReadCountryFromCsvLine(String line)
         {
             //تقسيم كل سطر الي عدة متغيرات عن طريق السبلت
-            String[] countres = line.Split(",");
+            String[] countres = line.Split(',');
             String name;
             String pop;
             String code;
@@ -59,7 +59,7 @@ namespace Countries_Demo_App
                     break;
 
                  default:
-                    throw new Exception("Error");
+                    throw new Exception($"Error {line}");
             }
             //اذا لم يحصل التحويل يضع القيمة صفر
             int.TryParse(pop, out int population);
