@@ -23,7 +23,7 @@ namespace Countries_Demo_App
 
                 String line;
                 sr.ReadLine();
-                while ((line = sr.ReadLine()) != "")
+                while ((line = sr.ReadLine()) != null)
                 {
                     result.Add(ReadCountryFromCsvLine(line));
                 }
@@ -31,6 +31,19 @@ namespace Countries_Demo_App
             }
 
             return result;
+        }
+        public void removeTheCountryContianComma(List<Country> country)
+        {
+            for(int i = country.Count-1; i >=0; i--)
+            {
+                if (country[i].Name.Contains(',')){
+                    country.RemoveAt(i);
+                }
+            }
+        }
+        public void removeTheCountryContianCommaWaysTow(List<Country> country)
+        {
+            country.RemoveAll(x => x.Name.Contains(','));
         }
         public Country ReadCountryFromCsvLine(String line)
         {
